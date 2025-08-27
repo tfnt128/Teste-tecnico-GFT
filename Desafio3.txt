@@ -1,0 +1,8 @@
+Estou com um problema de lógica de programação. Estou declarando um array chamado "lista" e inserindo 3 elementos string nesse array, mas quando o "for" é feito dessa maneira: 
+
+for (int i = 0; i <= lista.Length; i++) 
+{
+    imprimir(lista[i]) 
+} 
+
+Está sendo gerado um erro, na linha da impressão, de "out of bounds", ou seja, fora dos limites do array. Como posso arrumar o erro de uma maneira simples?
